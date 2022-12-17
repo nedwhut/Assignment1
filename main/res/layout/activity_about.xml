@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="243dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginVertical="30dip"
+        app:srcCompat="@drawable/logoe_zakat2" />
+
+    <TextView
+        android:id="@+id/appinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="32dip"
+        android:layout_marginTop="15dip"
+        android:layout_marginRight="32dip"
+        android:text="About Application"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/appinfo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="42dip"
+        android:layout_marginTop="16dip"
+        android:layout_marginRight="42dip"
+        android:text="@string/about_text"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textView_hyperlink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textCode"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dip"
+        android:text="@string/hyperlink"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dip"
+        android:text="@string/TextGroup"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/text_idnumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textGroup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dip"
+        android:text="@string/Text_idnumber"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_idnumber"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dip"
+        android:text="@string/TextCode"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textCopyright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textCode"
+        android:layout_marginTop="155dip"
+        android:layout_centerHorizontal="true"
+        android:text="@string/textCopyright" />
+
+</RelativeLayout>

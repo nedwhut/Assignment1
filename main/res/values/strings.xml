@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Gold e-Zakat</string>
+    <string name="textCopyright">Copyright &#169; 2022 Nadia</string>
+    <string name="about_text">Gold e-Zakat Application is an application that designed to help calculate the amount payment of zakat gold that owner need to pay. Zakat must be paid on 2.5% of the value of the gold that you own. This apps will help make it easier for the owners to calculate amount they need to pay.</string>
+    <string name="appinfo">About Application</string>
+    <string name="TextGroup">GROUP: RCS2405B</string>
+    <string name="Text_idnumber">STUDENT NUMBER: 2020495334</string>
+    <string name="TextCode">PROGRAMME CODE: CS240</string>
+
+    <string name="hyperlink">Please visit <a href="https://github.com/nedwhut/Assignment1">My GitHub</a> for more info</string>
+</resources>
